@@ -1,0 +1,10 @@
+{
+    "name": "modules/hello",
+    "description": "test hello module",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/MIGULAI/test-module"
+        }
+    ]
+}
