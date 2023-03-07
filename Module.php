@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\hello;
+namespace pp\vendor\modules\hello;
 
 use yii\base\BootstrapInterface;
 
@@ -12,7 +12,7 @@ class Module extends \yii\base\Module implements BootstrapInterface
     /**
      * {@inheritdoc}
      */
-     public $controllerNamespace = 'app\modules\hello\controllers';
+     public $controllerNamespace = 'app\vendor\modules\hello\controllers';
 
     /**
      * {@inheritdoc}
@@ -32,7 +32,7 @@ class Module extends \yii\base\Module implements BootstrapInterface
 
 
         $this->controllerMap = [
-            'smth' => 'app\modules\hello\controllers\DefaultController',
+            'smth' => 'app\vendor\modules\hello\controllers\DefaultController',
         ];
     }
 }
