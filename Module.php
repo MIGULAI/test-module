@@ -1,6 +1,6 @@
 <?php
 
-namespace pp\vendor\modules\hello;
+namespace app\vendor\modules\hello;
 
 use yii\base\BootstrapInterface;
 

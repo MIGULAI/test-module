@@ -1,7 +1,7 @@
 {
     "name": "modules/hello",
     "description": "test hello module",
-    "version": "0.1",
+    "version": "0.2",
     "dist": {
         "url": "https://github.com/MIGULAI/test-module/archive/refs/heads/main.zip",
         "type": "zip"
