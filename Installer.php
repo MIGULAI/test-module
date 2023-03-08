@@ -1,5 +1,5 @@
 <?php
-namespace app\vendor\modules\Installer;
+namespace app\vendor\modules\hello\Installer;
 
 use Composer\Installer\LibraryInstaller;
 
