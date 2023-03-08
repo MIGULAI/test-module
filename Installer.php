@@ -6,7 +6,7 @@ use Composer\Installer\LibraryInstaller;
 
 class Installer extends LibraryInstaller
 {
-    public function install(){
+    public static function install(){
         $configFile = '../config/web.php';
         $config = require $configFile;
         $config['modules']['hello'] = [
