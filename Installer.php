@@ -1,8 +1,11 @@
 <?php
 namespace app\vendor\modules\Installer;
 
+use Composer\Installer\LibraryInstaller;
 
-class Installer{
+
+class Installer extends LibraryInstaller
+{
     public function install(){
         $configFile = '../config/web.php';
         $config = require $configFile;
